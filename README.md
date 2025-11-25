@@ -1,7 +1,7 @@
 # Tower of Doom - Card Game
 
 ## Description
-Welcome to the defense of the Tower of Doom, where you have to fend off attacks from varied enemies commanding subject creatures. High replayability from random generation of enemies and cards, ensuring endless hours of fun. This game appeals to fans of card games, text-based games, and adventure games.
+Welcome to the Tower of Doom, where you have to fend off attacks from varied enemies commanding subject creatures. High replayability from random generation of enemies and cards, ensuring endless hours of fun. This game appeals to fans of card games, text-based games, and adventure games.
 
 ## Features
 * **Multiple Difficulty Selection:** To fit different players and playing styles.
