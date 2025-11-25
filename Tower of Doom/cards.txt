@@ -1,0 +1,101 @@
+000 5 25 25 25 Mystery Card ???
+001 0  7  7  7 Capuchin
+002 0  5  7 12 Turtle
+003 0  5 15  3 Puppy
+004 0  4 10 10 Chicken
+005 0  2 15  4 Evil Chick
+006 0  5 11  7 Hamster
+007 0  1 16  5 Chick
+008 0  5 10  6 Hedgehog
+009 0 10  6  6 Goat
+010 0  4 10 10 Cockatoo
+011 0  5  5 10 Rabbit
+012 0  6  6  6 Mouse
+013 0  3  9  9 Duckling
+014 0  2 11  8 Kitten
+015 0  6 11  6 Sheep
+016 0  4  8  8 Piglet
+017 0  3 10  7 Lamb
+018 0  6  6  9 Otter
+019 0  4  7  9 Seal Pup
+020 0  3 10  8 Robin
+021 1  6  8 13 Evil Turtle
+022 1  5 16  7 Evil Squirrel
+023 1  9  8  9 Dog
+024 1  5 12  8 Macaw
+025 1 12  8  9 Orangutan
+026 1  8 12  8 Evil Sheep
+027 1 15  7  8 Tiger
+028 1  4 15  6 Squirrel
+029 1 10  8  8 Fox
+030 1 13  6  9 Bear
+031 1 11  9  9 Evil Fox
+032 1  9  9 10 Evil Capuchin
+033 1  5 12 12 Evil Chicken
+034 1 13  7  7 Jaguar
+035 1 11 10  8 Panda
+036 1  6 10  9 Toucan
+037 1 12  7  7 Evil Goat
+038 1 10  9  9 Raccoon
+039 1 16  8  9 Evil Tiger
+040 1 14  7 10 Evil Bear
+041 2  8 18 10 Ghost
+042 2  8 10 18 Snowman
+043 2 10 16 10 Elf
+044 2  7 16  8 Holiday Gift
+045 2 18 10  8 Shadow Assassin
+046 2 12  8 18 Goblin
+047 2  9 10 17 Wizard
+048 2  7 10 16 Two of Spades
+049 2  6 15 10 Evil Parrot
+050 2  8 11 16 Fairy
+051 2  8 15 11 Snow Globe
+052 2 10 14 12 Unicorn
+053 2 14 12 12 Reindeer
+054 2 16 10 12 Knight
+055 2 12 11 11 Evil Dog
+056 2 16 10  8 Evil Goblin
+057 2 10 10 15 Gargoyle
+058 2 14 10 10 Evil Elf
+059 2 11 14 11 Snow Witch
+060 2 13 13 12 Dark Fairy
+061 3 11 17 12 Gingerbread House
+062 3 10 16 16 Queen
+063 3 18  6 18 Thunder Bird
+064 3 23  9 10 Phoenix
+065 3 16 14 12 Vampire
+066 3 29  7  6 Fire Dragon
+067 3 30  5  7 Stone Giant
+068 3 10 30  5 Ice Golem
+069 3 11 14 17 White Rabbit
+070 3 22  8 10 Evil Knight
+071 3 12 20 10 Evil Wizard
+072 3 14 15 13 Ice Dragon
+073 3 17 10 14 Evil Queen
+074 3 15 15 12 Shadow Dragon
+075 3 13 18 11 Evil Thunder Bird
+076 3 19 11 12 Lava Golem
+077 3 16 16 13 Evil Phoenix
+078 3 18 14 12 Dark Wizard
+079 3 20 12 11 Evil Vampire
+080 3 15 15 14 Evil Reindeer
+081 4 17 19 16 King of Hearts
+082 4 20 13 17 Golden Phoenix
+083 4 20 10 22 Storm Wizard
+084 4 16 19 17 Santa Claus
+085 4 12 22 18 Forest Spirit
+086 4 21 13 16 Fire Dragon Lord
+087 4 21 13 16 Evil King
+088 4 18 18 18 Ice Phoenix
+089 4 22 15 15 Storm Dragon
+090 4 19 20 17 Dark King
+091 4 23 14 15 Evil Santa
+092 4 25 16 14 Thunder Lord
+093 4 20 20 16 Shadow King
+094 4 24 17 15 Lava Dragon
+095 4 22 18 16 Evil Forest Spirit
+096 4 26 15 14 Stone Lord
+097 4 25 17 15 Evil Storm Wizard
+098 4 27 16 14 Dark Phoenix
+099 4 20 20 20 Shadow Prophet
+100 4 28 18 18 Untamed
