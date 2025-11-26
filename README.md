@@ -29,7 +29,7 @@ HKU COMP2113 Group 21, H2 2025
 Members:
 * Shum Jing Shu Nathan (UID: 3036179302)
 * Ng Ngo Yin (UID: 3036059007)
-* 
+* Deng Wai Man (UID: 3036240058)
 * 
 * 
 * 
