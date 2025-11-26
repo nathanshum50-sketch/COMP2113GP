@@ -1,101 +1,100 @@
-000 5 25 25 25 Mystery Card ???
-001 0  7  7  7 Capuchin
-002 0  5  7 12 Turtle
-003 0  5 15  3 Puppy
-004 0  4 10 10 Chicken
-005 0  2 15  4 Evil Chick
-006 0  5 11  7 Hamster
-007 0  1 16  5 Chick
-008 0  5 10  6 Hedgehog
-009 0 10  6  6 Goat
-010 0  4 10 10 Cockatoo
-011 0  5  5 10 Rabbit
-012 0  6  6  6 Mouse
-013 0  3  9  9 Duckling
-014 0  2 11  8 Kitten
-015 0  6 11  6 Sheep
-016 0  4  8  8 Piglet
-017 0  3 10  7 Lamb
-018 0  6  6  9 Otter
-019 0  4  7  9 Seal Pup
-020 0  3 10  8 Robin
-021 1  6  8 13 Evil Turtle
-022 1  5 16  7 Evil Squirrel
-023 1  9  8  9 Dog
-024 1  5 12  8 Macaw
-025 1 12  8  9 Orangutan
-026 1  8 12  8 Evil Sheep
-027 1 15  7  8 Tiger
-028 1  4 15  6 Squirrel
-029 1 10  8  8 Fox
-030 1 13  6  9 Bear
-031 1 11  9  9 Evil Fox
-032 1  9  9 10 Evil Capuchin
-033 1  5 12 12 Evil Chicken
-034 1 13  7  7 Jaguar
-035 1 11 10  8 Panda
-036 1  6 10  9 Toucan
-037 1 12  7  7 Evil Goat
-038 1 10  9  9 Raccoon
-039 1 16  8  9 Evil Tiger
-040 1 14  7 10 Evil Bear
-041 2  8 18 10 Ghost
-042 2  8 10 18 Snowman
-043 2 10 16 10 Elf
-044 2  7 16  8 Holiday Gift
-045 2 18 10  8 Shadow Assassin
-046 2 12  8 18 Goblin
-047 2  9 10 17 Wizard
-048 2  7 10 16 Two of Spades
-049 2  6 15 10 Evil Parrot
-050 2  8 11 16 Fairy
-051 2  8 15 11 Snow Globe
-052 2 10 14 12 Unicorn
-053 2 14 12 12 Reindeer
-054 2 16 10 12 Knight
-055 2 12 11 11 Evil Dog
-056 2 16 10  8 Evil Goblin
-057 2 10 10 15 Gargoyle
-058 2 14 10 10 Evil Elf
-059 2 11 14 11 Snow Witch
-060 2 13 13 12 Dark Fairy
-061 3 11 17 12 Gingerbread House
-062 3 10 16 16 Queen
-063 3 18  6 18 Thunder Bird
-064 3 23  9 10 Phoenix
-065 3 16 14 12 Vampire
-066 3 29  7  6 Fire Dragon
-067 3 30  5  7 Stone Giant
-068 3 10 30  5 Ice Golem
-069 3 11 14 17 White Rabbit
-070 3 22  8 10 Evil Knight
-071 3 12 20 10 Evil Wizard
-072 3 14 15 13 Ice Dragon
-073 3 17 10 14 Evil Queen
-074 3 15 15 12 Shadow Dragon
-075 3 13 18 11 Evil Thunder Bird
-076 3 19 11 12 Lava Golem
-077 3 16 16 13 Evil Phoenix
-078 3 18 14 12 Dark Wizard
-079 3 20 12 11 Evil Vampire
-080 3 15 15 14 Evil Reindeer
-081 4 17 19 16 King of Hearts
-082 4 20 13 17 Golden Phoenix
-083 4 20 10 22 Storm Wizard
-084 4 16 19 17 Santa Claus
-085 4 12 22 18 Forest Spirit
-086 4 21 13 16 Fire Dragon Lord
-087 4 21 13 16 Evil King
-088 4 18 18 18 Ice Phoenix
-089 4 22 15 15 Storm Dragon
-090 4 19 20 17 Dark King
-091 4 23 14 15 Evil Santa
-092 4 25 16 14 Thunder Lord
-093 4 20 20 16 Shadow King
-094 4 24 17 15 Lava Dragon
-095 4 22 18 16 Evil Forest Spirit
-096 4 26 15 14 Stone Lord
-097 4 25 17 15 Evil Storm Wizard
-098 4 27 16 14 Dark Phoenix
-099 4 20 20 20 Shadow Prophet
-100 4 28 18 18 Untamed
+001 0  6  7  6 Chicken
+002 0  5  8  5 Turtle
+003 0  7  6  6 Puppy
+004 0  4  8  7 Hamster
+005 0  6  6  7 Rabbit
+006 0  5  9  4 Hedgehog
+007 0  8  5  6 Goat
+008 0  7  7  5 Squirrel
+009 0  6  8  5 Chick
+010 0  5  6  8 Cockatoo
+011 0  7  5  7 Sheep
+012 0  6  7  6 Capuchin
+013 0  8  6  5 Fox Cub
+014 0  5  8  6 Fawn
+015 0  7  6  6 Duckling
+016 0  6  5  8 Piglet
+017 0  5  7  7 Kitten
+018 0  8  5  6 Frog
+019 0  6  6  7 Mouse
+020 0  7  5  7 Sparrow
+021 0  5  8  6 Beetle
+022 0  6  7  6 Ladybug
+023 0  7  6  6 Snail
+024 0  5  5  9 Worm
+025 0  8  6  5 Ant
+026 0  6  8  5 Butterfly
+027 0  7  5  7 Bee
+028 0  5  6  8 Fish
+029 0  6  7  6 Crab
+030 0  8  5  6 Shrimp
+031 0  7  6  6 Seagull
+032 0  5  8  6 Pigeon
+033 0  6  7  6 Crow
+034 1  8  8  9 Dog
+035 1  9  7  9 Cat
+036 1 10  8  7 Bear Cub
+037 1  7 10  8 Parrot
+038 1  9  8  8 Wolf Pup
+039 1  8  9  8 Deer
+040 1 10  7  8 Tiger Cub
+041 1  7  8 10 Owl
+042 1  9  9  7 Raccoon
+043 1  8 10  7 Peacock
+044 1 10  6  9 Panther Cub
+045 1  7  9  9 Eagle
+046 1  9  8  8 Panda Cub
+047 1  8  7 10 Penguin
+048 1 10  8  7 Lion Cub
+049 1  7 10  8 Flamingo
+050 1  9  7  9 Koala
+051 1  8  9  8 Monkey
+052 1 10  7  8 Rhino Calf
+053 1  7  8 10 Toucan
+054 1  9  8  8 Elephant Calf
+055 1  8 10  7 Swan
+056 1 10  6  9 Crocodile
+057 1  7  9  9 Macaw
+058 1  9  8  8 Gorilla
+059 1  8  7 10 Dolphin
+060 1 10  8  7 Hippo Calf
+061 1  7 10  8 Pelican
+062 2 12 10 10 Knight
+063 2 10 12 10 Elf Archer
+064 2 11 11 10 Wizard
+065 2 13  9 10 Assassin
+066 2 10 10 12 Priestess
+067 2 14  8 10 Warrior
+068 2  9 13 10 Bard
+069 2 11 10 11 Druid
+070 2 12 12  8 Queen
+071 2 10  9 13 Sage
+072 2 15  8  9 Berserker
+073 2  9 11 12 Sorceress
+074 2 13 10  9 Paladin
+075 2 10 14  8 Fairy
+076 2 11  9 12 Shaman
+077 2 12  8 12 Rogue
+078 2 10 13  9 Oracle
+079 2 14 10  8 Champion
+080 2  9 10 13 Monk
+081 2 11 12  9 Necromancer
+082 3 15 13 12 Vampire Lord
+083 3 14 14 12 Phoenix
+084 3 16 11 13 Fire Dragon
+085 3 12 15 13 Ice Golem
+086 3 13 12 15 Thunder Bird
+087 3 17 10 13 Demon Wolf
+088 3 11 16 13 Archmage
+089 3 14 13 14 Ghost King
+090 3 18 11 11 Stone Titan
+091 3 13 17 10 Dark Elf Queen
+092 3 12 14 14 Storm Giant
+093 3 15 12 13 Shadow Dragon
+094 3 10 15 15 Angel of Doom
+095 3 16 13 11 Evil Overlord
+096 3 14 11 15 Lich King
+097 4 18 16 14 Golden Phoenix
+098 4 20 15 13 Storm Emperor
+099 4 17 17 14 Void Sovereign
+100 5 20 20 20 Mystery God ???
