@@ -7,7 +7,7 @@ Welcome to the Tower of Doom, where you have to fend off attacks from varied ene
 * **Multiple Difficulty Selection:** To fit different players and playing styles.
 * **Multiple Levels:** For players to pace their playtime and adjust their strategies against new enemies.
 * **Random Generation:** Generating enemies, events (adjusted for enemy and difficulty level), and cards (adjusted for rarity).
-* **Data Structures:** Use of linked lists to store card lists, struct to store player state, class to store game information, vectors to store enemies and events.
+* **Data Structures:** Use of linked lists to store card lists, struct to store player state, class to store game information, maps to store enemies and events.
 * **Dynamic Memory Management:** Player and enemy card lists cleared on initialization or new game.
 * **Saving and Loading:** Highscore and player storage, with option to continue game from save.
 * **Distinct Enemies:** Enemies have distinct strengths, weaknesses, and flavor, and can take exceptional actions. Unique Bosses at the ends of levels.
