@@ -79,22 +79,22 @@ Card generateEnemyCard(string enemy, Card* cardPoolHead, char difficulty) {
     int cardno;
     switch (selectedRarity) {
         case 0:
-            cardno = rand() % 20 + 1;
+            cardno = rand() % 33 + 1;
             break;      // Cards 001-033 (Rarity 0)
         case 1:
-            cardno = rand() % 28 + 33;
-            break;     // Cards 021-040 (Rarity 1)  
+            cardno = rand() % 29 + 34;
+            break;     // Cards 034-062 (Rarity 1)  
         case 2:
-            cardno = rand() % 20 + 62;
-            break;     // Cards 041-060 (Rarity 2)
+            cardno = rand() % 20 + 63;
+            break;     // Cards 063-082 (Rarity 2)
         case 3:
             cardno = rand() % 15 + 82;
-            break;     // Cards 061-080 (Rarity 3)
+            break;     // Cards 082-096 (Rarity 3)
         case 4:
             cardno = rand() % 3 + 97;
-            break;     // Cards 081-100 (Rarity 4)
+            break;     // Cards 097-099 (Rarity 4)
         default:
-            cardno = rand() % 20 + 1;
+            cardno = rand() % 33 + 1;
             break;
     }
     // I assumed Card 000 (rarity 5) is for players only - enemies can't draw it
@@ -196,3 +196,4 @@ string battlePlayer(Card playerCard, Card enemyCard, string chosenStat) {
     return "DRAW";
 
 }
+
