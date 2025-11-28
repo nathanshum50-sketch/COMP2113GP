@@ -2,22 +2,25 @@
 #define GAME_H
 
 using namespace std;
-
+//include files for orchestration
 #include "enemy.h"
 #include "scoring.h"
 #include "interface.h"
 #include "header.h"
 #include <string>
 
+//define class to store game stats
 class Game
 {
 public:
+//game variables
     GameState state;
     Card* player_cards;
     Card* enemy_cards;
     Card* all_cards;
     string enemy;
 public:
+//game functions
     Game();
     void init_game();
     void main_menu();
@@ -28,5 +31,6 @@ public:
     void won();
     void main_game();
 };
+
 
 #endif
