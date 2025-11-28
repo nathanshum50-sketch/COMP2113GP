@@ -32,4 +32,4 @@ Members:
 * Deng Wai Man (UID: 3036240058)
 * Wong Chun Hin (UID: 3036402321)
 * Lam Cho Tsun (UID: 3036522523)
-* 
+* Ari Delon David Winayu (UID: 3036182165)
