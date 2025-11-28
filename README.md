@@ -30,6 +30,6 @@ Members:
 * Shum Jing Shu Nathan (UID: 3036179302)
 * Ng Ngo Yin (UID: 3036059007)
 * Deng Wai Man (UID: 3036240058)
-* 
+* Wong Chun Hin (UID: 3036402321)
 * 
 * 
