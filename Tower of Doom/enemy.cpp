@@ -80,18 +80,18 @@ Card generateEnemyCard(string enemy, Card* cardPoolHead, char difficulty) {
     switch (selectedRarity) {
         case 0:
             cardno = rand() % 20 + 1;
-            break;      // Cards 001-020 (Rarity 0)
+            break;      // Cards 001-033 (Rarity 0)
         case 1:
-            cardno = rand() % 20 + 21;
+            cardno = rand() % 28 + 33;
             break;     // Cards 021-040 (Rarity 1)  
         case 2:
-            cardno = rand() % 20 + 41;
+            cardno = rand() % 20 + 62;
             break;     // Cards 041-060 (Rarity 2)
         case 3:
-            cardno = rand() % 20 + 61;
+            cardno = rand() % 15 + 82;
             break;     // Cards 061-080 (Rarity 3)
         case 4:
-            cardno = rand() % 20 + 81;
+            cardno = rand() % 3 + 97;
             break;     // Cards 081-100 (Rarity 4)
         default:
             cardno = rand() % 20 + 1;
@@ -194,4 +194,5 @@ string battlePlayer(Card playerCard, Card enemyCard, string chosenStat) {
     if (playerStat > enemyStat) return "VICTORY";
     if (playerStat < enemyStat) return "DEFEAT";
     return "DRAW";
+
 }
