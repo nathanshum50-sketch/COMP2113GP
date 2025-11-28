@@ -269,6 +269,8 @@ return '1' for first stat picked, '2' for second stat picked, '3' for third stat
 */
 
 char chooseStat(int firstStat, int secondStat, int thirdStat, string cardName){
+    if(!cardName.empty() && cardName.back() == '\r') cardName.pop_back();
+    
     cout << "##########################################################################################" << endl;
     cout << "#                                                                                        #" << endl;
     cout << "#                                                                                        #" << endl;
