@@ -23,7 +23,7 @@ string spaceLeft(string, int);
 /*
 1. Starting page
 
-char startPage(string difficulty, string round, bool printContinue);
+char startPage(string difficulty, string round, string level, int highScore, bool printContinue);
 
 return 's' to start from beginning, 'c' to continue the game
 the 'Press "c" ...' statement is printed only if [printContinue] is true
@@ -338,9 +338,9 @@ void contest(int firstStatPlayer, int secondStatPlayer, int thirdStatPlayer, int
 #                                                                                        #
 #                                                                                        #
 #     You [win/lose]! Deal [damage] Damage               (o)     (o)      (o)    (o)     #
-#     Health: [health]/100                                                               #
+#     (Press "n" to go to the next round)                                                #
 #                                                        *         *        *  *  *      #
-#     (Press "n" to go to the next round)                  *  *  *        *         *    #
+#     Health: [health]                                     *  *  *        *         *    #
 #                                                                                        #
 ##########################################################################################
 
@@ -442,7 +442,7 @@ void lose(){
     cout << "#                                                                                        #" << endl;
     cout << "#                                                                                        #" << endl;
     cout << "#                                                                                        #" << endl;
-    cout << "#                         (Press \"m\" to return to the main page)                       #" << endl;
+    cout << "#                         (Press \"m\" to return to the main page)                         #" << endl;
     cout << "#                                                                                        #" << endl;
     cout << "#                                                                                        #" << endl;
     cout << "#                                                                                        #" << endl;
@@ -500,11 +500,11 @@ char completeLevel(){
     cout << "#                                                                                        #" << endl;
     cout << "#                                                                                        #" << endl;
     cout << "#                                                                                        #" << endl;
-    cout << "#                          (Press \"n\" to go to the next level)                         #" << endl;
+    cout << "#                          (Press \"n\" to go to the next level)                           #" << endl;
     cout << "#                                                                                        #" << endl;
-    cout << "#                                  (Press \"s\" to save)                                 #" << endl;
+    cout << "#                                  (Press \"s\" to save)                                   #" << endl;
     cout << "#                                                                                        #" << endl;
-    cout << "#                           (Press \"m\" to return to main menu)                         #" << endl;
+    cout << "#                           (Press \"m\" to return to main menu)                           #" << endl;
     cout << "#                                                                                        #" << endl;
     cout << "#                                                                                        #" << endl;
     cout << "##########################################################################################" << endl;
@@ -541,11 +541,11 @@ void completeAllLevel();
 #                                                                                        #
 #                                                                                        #
 #                                                                                        #
-#                                                                                        #
-#                                                                                        #
 #                         (Press "m" to return to the main page)                         #
 #                                                                                        #
+#                            (Press "c" to check your cards)                             #
 #                                                                                        #
+#                           (Press "e" to check enemy cards)                             #
 #                                                                                        #
 #                                                                                        #
 ##########################################################################################
@@ -564,11 +564,11 @@ char completeAllLevel(){
     cout << "#                                                                                        #" << endl;
     cout << "#                                                                                        #" << endl;
     cout << "#                                                                                        #" << endl;
-    cout << "#                         (Press \"m\" to return to the main page)                       #" << endl;
+    cout << "#                         (Press \"m\" to return to the main page)                         #" << endl;
     cout << "#                                                                                        #" << endl;
-    cout << "#                            (Press \"c\" to check your cards)                           #" << endl;
+    cout << "#                            (Press \"c\" to check your cards)                             #" << endl;
     cout << "#                                                                                        #" << endl;
-    cout << "#                           (Press \"e\" to check enemy cards)                           #" << endl;
+    cout << "#                           (Press \"e\" to check enemy cards)                             #" << endl;
     cout << "#                                                                                        #" << endl;
     cout << "#                                                                                        #" << endl;
     cout << "##########################################################################################" << endl;
