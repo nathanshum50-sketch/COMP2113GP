@@ -43,22 +43,22 @@ Card drawncard(int difficulty,Card* fulldeck,int seed){
 	for (qual=0;qual<6;qual++) if (dice<qual_prob(qual,difficulty)*10000) break;
 	switch (qual){
 		case 0:
-			no=rand()%20+1;
+			no=rand()%33+1;
 			break;
 		case 1:
-			no=rand()%20+21;
+			no=rand()%29+34;
 			break;
 		case 2:
-			no=rand()%20+41;
+			no=rand()%19+63;
 			break;
 		case 3:
-			no=rand()%20+61;
+			no=rand()%15+82;
 			break;
 		case 4:
-			no=rand()%20+81;
+			no=rand()%3+97;
 			break;
 		case 5:
-			no=0;
+			no=100;
 			break;
 		default:
 			cout<<qual<<"\nCritical error encountered on card gen. Please consult the person responsible for this part."<<endl;
@@ -104,4 +104,5 @@ void deleteList(Card* head) {
         head = head->next;
         delete tmp;
     }
+
 }
