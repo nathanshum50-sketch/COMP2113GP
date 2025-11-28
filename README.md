@@ -85,24 +85,23 @@ Welcome to the Tower of Doom, where you have to fend off attacks from varied ene
 
 ## Project Structure
 
-```
-Tower of Doom/
-├── cards.txt          # Card database (ID, rarity, stats, name)
-├── enemy_config.h     # Enemy roster, stat biases, random events
-├── game.cpp/.h        # Main gameplay loop and state transitions
-├── interface.cpp/.h   # ASCII UI rendering and user input prompts
-├── card.cpp           # Linked-list deck builder and card printer
-├── card_drawing.cpp   # Rarity-weighted draw + hand management helpers
-├── enemy.cpp/.h       # Enemy generation, event handling, battle logic
-├── scoring.cpp/.h     # GameState, scoring, damage, save/load, highscores
-├── header.h           # Shared Card struct definitions
-├── main.cpp           # Program entry point
-├── Makefile           # Build automation (targets `game` / `clean`)
-├── player.txt         # Auto-generated save data (created at runtime)
-└── highscore.txt      # Persistent best-score tracker
-```
+| File/Directory | Purpose |
+| --- | --- |
+| `cards.txt` | Master card database (ID, rarity, STR/CHA/WIS stats, display name). |
+| `enemy_config.h` | Lists all enemies/bosses, flavor text, stat biases, and random event tables. |
+| `game.cpp/.h` | Core orchestrator: menus, difficulty, level/round flow, win/lose logic. |
+| `interface.cpp/.h` | ASCII UI rendering plus validated input handlers (start page, selections, contest screen). |
+| `card.cpp` | Deck loader from `cards.txt`, card printing for galleries, linked-list builder. |
+| `card_drawing.cpp` | Difficulty-aware rarity probabilities (`qual_prob`), card drawing, sorted hand insertion, cleanup helpers. |
+| `enemy.cpp/.h` | Enemy selection, card generation with events, battle result messaging. |
+| `scoring.cpp/.h` | `GameState` definition, score/damage formulas, save/load, high-score management. |
+| `header.h` | Shared `Card` struct and deck-handling function declarations. |
+| `main.cpp` | Program entry point that instantiates the `Game` singleton. |
+| `Makefile` | Build automation for compiling, linking, cleaning artifacts. |
+| `player.txt` | Auto-generated save snapshot (HP, level, round, difficulty, score). |
+| `highscore.txt` | Persistent best-score tracker, updated whenever a new record is set. |
 
-Key assets (e.g. `player.txt`, `highscore.txt`) are produced automatically the first time you save or finish a run; deleting them resets the game state.
+Key assets such as `player.txt` and `highscore.txt` are produced automatically the first time you save or finish a run; deleting them resets the game state.
 
 
 ## Build and Run
