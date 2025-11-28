@@ -1,6 +1,6 @@
 #include "game.h"
 
-//game class initalized
+//game class initialized
 Game game;
 
 int main(){
@@ -9,3 +9,4 @@ int main(){
 	return 0;
 
 }
+
