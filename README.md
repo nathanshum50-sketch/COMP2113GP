@@ -19,7 +19,7 @@
 Welcome to the Tower of Doom, where you have to fend off attacks from varied enemies commanding subject creatures. High replayability from random generation of enemies, events, and cards, ensuring endless hours of fun. This game appeals to fans of card games, text-based games, and adventure games.
 
 ## Demo Video
-*drop a link to demo here.*
+https://drive.google.com/file/d/1PfXw_t6ftoOBp_7XspJKp9VXahZfL0Gr/view?usp=drivesdk
 
 ## Features
 * **Multiple Difficulty Selection:** To fit different players and playing styles.
