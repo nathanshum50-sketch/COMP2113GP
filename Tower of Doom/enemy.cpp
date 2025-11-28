@@ -85,8 +85,8 @@ Card generateEnemyCard(string enemy, Card* cardPoolHead, char difficulty) {
             cardno = rand() % 29 + 34;
             break;     // Cards 034-062 (Rarity 1)  
         case 2:
-            cardno = rand() % 20 + 63;
-            break;     // Cards 063-082 (Rarity 2)
+            cardno = rand() % 19 + 63;
+            break;     // Cards 063-081 (Rarity 2)
         case 3:
             cardno = rand() % 15 + 82;
             break;     // Cards 082-096 (Rarity 3)
@@ -196,4 +196,5 @@ string battlePlayer(Card playerCard, Card enemyCard, string chosenStat) {
     return "DRAW";
 
 }
+
 
