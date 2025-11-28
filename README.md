@@ -31,5 +31,5 @@ Members:
 * Ng Ngo Yin (UID: 3036059007)
 * Deng Wai Man (UID: 3036240058)
 * Wong Chun Hin (UID: 3036402321)
-* 
+* Lam Cho Tsun (UID: 3036522523)
 * 
